@@ -33,3 +33,7 @@ time_till = deadline_date - today_date
 
 print (f"Dear User! Time remaining for your goal: {goal} is {time_till.days} days") 
 
+#time_till in hours 
+
+print (f"Time till Deadline for {goal} is {int(time_till.total_seconds()/60/60)} hours") 
+
