@@ -1,1 +1,33 @@
-testing
+## Python Spreadsheet Automation Lab 
+
+## Procedure for creating a project on google developer console 
+
+(1) Go to google developer console  
+
+(2) Create a new project  
+
+(3) Open the new project  
+
+(4) Enable google sheet API 
+ - Click on +Enable API 
+ - Search and select Google Sheet API 
+ - Click Enable 
+ - Search and Select Google Drive API 
+ - Click Enable(5) Go to Credentials 
+ - Click on +Create Credentials 
+ - Choose Service Account 
+ - Add : Service Account Name and description  
+ - Select desired Permission 
+ - Click Done. 
+
+(6) Click on the newly created service account 
+ - Select Keys 
+ - Add key 
+ - choose JSON and click create.  - The key will be created and automatically downloaded 
+
+(7) Create a test google sheet and add the gmail account provided by the console when the service account was created. It should be in the form: 
+	
+		<service_account_name>@<project-name>.iam.gserviceaccount.com 
+
+(8) Install OAuth client from your pc’s terminal   
+   	pip install gspread oauth2client 
