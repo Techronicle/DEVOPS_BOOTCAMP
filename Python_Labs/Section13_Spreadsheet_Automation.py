@@ -7,7 +7,7 @@ from pprint import pprint
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive'] 
 
-creds = ServiceAccountCredentials.from_json_keyfile_name('/Users/balvish.royapah/Downloads/spreadsheet-lab-414503-793aaebf0f29.json', scope) 
+creds = ServiceAccountCredentials.from_json_keyfile_name('<ADD YOUR JSON KEY LOCATION>', scope) 
 
 # Authenticate with Google Sheets API
 client = gspread.authorize(creds)  
